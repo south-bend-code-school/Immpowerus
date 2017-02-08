@@ -3,6 +3,8 @@
 
   function init () {
     beginVidChat();
+
+  
   }
 
   function beginVidChat(){
@@ -10,6 +12,12 @@
 
     $('#vidChat').append( "<iframe src='https://appear.in/"+chatName+"' width='800' height='640' frameborder='0'></iframe>")
   }
+
+
+
+
+
+
 
 
 

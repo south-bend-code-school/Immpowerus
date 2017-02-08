@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
   <link rel="stylesheet" href="./stylesheets/style.css">
   <link rel="stylesheet" href="./stylesheets/chat_room.css">
+  <!-- Flip Clock -->
+  <link rel="stylesheet" href="./stylesheets/flipclock.css">
 
   <!--jquery cdn-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -19,6 +21,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
   <!-- Firebase -->
   <script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+  <!-- Flip Clock -->
+  <script src="./js/flipclock.min.js"></script>
   <!--written JS files-->
   <script src="./js/chat_room.js"></script>
 
@@ -27,10 +31,25 @@
 <body>
 
   <div class="row">
-    <div id="vidChat" class="col s10 offset-s1">
-      <h3>Welcome to the chat...</h3>
+    <div class="col s10 offset-s1">
+      <h2>Say hello...</h2>
     </div>
   </div>
+
+  <div class="row">
+    <div id="vidChat" class="col s5 offset-s1">
+    </div>
+    <div  class="col s5">
+      <div id="youthIssueDesc">
+        <h3>Description of Issue:</h3>
+      </div>
+      <div id="clock"></div>
+    </div>
+
+  </div>
+
+
+
 
 
 

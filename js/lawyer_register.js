@@ -53,7 +53,7 @@
 
     updates['/Lawyer/' + newLawyerKey] = lawyerData;
     return firebase.database().ref().update(updates).then(function(){
-      window.location.replace("./lawyer_home.html");
+      window.location.replace("./lawyer_home.html?name="+newLawyerKey);
     });
   }
 
