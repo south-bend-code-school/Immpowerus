@@ -37,24 +37,23 @@
       fName : fName,
       lName : lName,
       firm : firm,
-      address : address,
-      email : email,
+      // address : address,
+      // email : email,
       password : password,
       barNum : barNum,
       stateBars : stateBars,
       helpTypes : helpTypes,
       languages : languages,
     };
-
-    var newLawyerKey = firebase.database().ref().child('Lawyer').push().key;
     var updates = {};
-
-    console.log(updates);
-
-    updates['/Lawyer/' + newLawyerKey] = lawyerData;
-    return firebase.database().ref().update(updates).then(function(){
-      window.location.replace("./lawyer_home.html?name="+newLawyerKey);
-    });
+    firebase.auth().createUserWithEmailAndPassword(email,password)
+      .then(function(user){
+        updates['/Lawyer/' + user.uid] = lawyerData;
+        return firebase.database().ref().update(updates)
+          .then(function(){
+            window.location.replace("./lawyer_home.html?name="+user.uid);
+          });
+      });
   }
 
 })();

@@ -25,7 +25,7 @@
   }
 
   function beginVidChat(){
-    $('#vidChat').append( "<iframe src='https://appear.in/"+youth_id+"' width='100%' height='500' frameborder='0'></iframe>")
+    $('#vidChat').append( "<iframe src='https://appear.in/"+youth_id+"' width='100%' height='100%' frameborder='0'></iframe>")
   }
 
   function createConsultation(){

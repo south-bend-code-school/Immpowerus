@@ -30,7 +30,7 @@
           "<tr>"+
             "<td>"+cons[i].date.split('T')[0]+"</td>"+
             "<td>"+cons[i].timeSpent+"</td>"+
-            "<td>"+cons[i].description+"</td>"+
+            // "<td class='truncate'>"+cons[i].description+"</td>"+
           "<tr>"
         );
       };
