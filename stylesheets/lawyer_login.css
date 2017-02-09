@@ -1,0 +1,16 @@
+.needToKnow {
+  margin: 2em 0 0 0;
+}
+
+.lawyerHeader {
+  background: url('http://www.garfinkelimmigration.com/design/images/slide7.jpg') no-repeat top;
+  background-size: cover;
+  height: 400px;
+  color: white;
+}
+
+.lawyerHeader h1 {
+  position: relative;
+  top: 300px;
+  text-shadow: 2px 2px 15px rgba(4, 0, 0, 0.80);
+}

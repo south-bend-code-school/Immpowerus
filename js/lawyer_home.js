@@ -55,7 +55,7 @@
         "<div class='collapsible-header hoverable'><i class='material-icons'>question_answer</i></div>" +
         "<div class='collapsible-body'>"+
           "<p>"+description+"</p>" +
-          "<a id='startChat' class='waves-effect waves-light btn' data-field="+youth_id+">Enter Chat</a>" +
+          "<a id='startChat' class='light-green btn waves-effect waves-red hoverable' data-field="+youth_id+">Enter Chat</a>" +
           "</div>" +
       "</li>"
     )

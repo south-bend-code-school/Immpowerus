@@ -1,3 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Arsenal|Barrio');
+
 body {
   margin: 0 auto;
+  font-family: 'Arsenal', sans-serif;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+h1, h2, h3 {
+  font-family: 'Barrio', cursive;
+}
+
+.waves-effect.waves-red .waves-ripple {
+  background-color: rgba(239, 154, 154, 0.65)
+}
+
+.header {
+  background: url('http://inthesetimes.com/images/made/images/dnb2013mayday29_850_567.jpg') no-repeat center;
+  background-size: cover;
+  color: white;
+  height: 500px;
+  font-family: 'Barrio', cursive;
+  margin: 0 0 3em 0;
+}
+
+.header h1 {
+  font-size: 9em;
+  text-shadow: 2px 2px 15px rgba(4, 0, 0, 0.80);
+}
+
+.about {
+  margin: 3em 0 0 0
 }
