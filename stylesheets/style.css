@@ -21,9 +21,10 @@ h1, h2, h3 {
   background: url('http://inthesetimes.com/images/made/images/dnb2013mayday29_850_567.jpg') no-repeat center;
   background-size: cover;
   color: white;
-  height: 500px;
+  height: 550px;
   font-family: 'Barrio', cursive;
   margin: 0 0 3em 0;
+  background-attachment: fixed;
 }
 
 .header h1 {
@@ -33,4 +34,9 @@ h1, h2, h3 {
 
 .about {
   margin: 3em 0 0 0
+}
+
+.mission {
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 2em !important;
 }

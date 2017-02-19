@@ -15,7 +15,12 @@
     searchForYouth();
     $('.collapsible').collapsible();
     $('.collapsible').on('click', 'li .collapsible-body a', goToChat);
+    // totalTime();
   }
+
+  // function totalTime(){
+  //   //total time here
+  // }
 
   function loadLawyer(){
     var lawyerKey = location.search.split('name=')[1];
@@ -29,8 +34,7 @@
         $('tbody').append(
           "<tr>"+
             "<td>"+cons[i].date.split('T')[0]+"</td>"+
-            "<td>"+cons[i].timeSpent+"</td>"+
-            // "<td class='truncate'>"+cons[i].description+"</td>"+
+            "<td class='time'>"+cons[i].timeSpent+"</td>"+
           "<tr>"
         );
       };
