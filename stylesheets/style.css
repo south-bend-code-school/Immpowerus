@@ -13,6 +13,18 @@ h1, h2, h3 {
   font-family: 'Barrio', cursive;
 }
 
+img {
+  width: 250px;
+}
+
+.divider {
+  margin: 2em 0;
+}
+
+.valignFix {
+  margin-left: 0 !important;
+}
+
 .waves-effect.waves-red .waves-ripple {
   background-color: rgba(239, 154, 154, 0.65)
 }
@@ -36,7 +48,19 @@ h1, h2, h3 {
   margin: 3em 0 0 0
 }
 
-.mission {
-  border-bottom: 2px solid lightgray;
-  padding-bottom: 2em !important;
+.numbers {
+  /*height: 250px;*/
+}
+
+.numbers h1, .numbers h4 {
+  display: inline-block;
+}
+
+.numbers h1 {
+  margin-right: 10px;
+  font-size: 5em;
+}
+
+.numbers h4 {
+  font-size: 2em;
 }
